@@ -1,0 +1,14 @@
+ class Exp
+{
+ public static void main(String s[])
+  {
+   float p,r,si;
+   int t;
+   p=Float.parseFloat(s[o]);
+   t=Integer.parseInteger(s[1]);
+   r=Float.parseFloat(s[2]);
+   
+   Float si=(p*t*r)/100;
+   System.out.println("simple interest:"+si);
+  }
+}
